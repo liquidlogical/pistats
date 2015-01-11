@@ -9,6 +9,7 @@ import socket, sys, time, datetime
 from pyglow import PyGlow
 from time import sleep
 import os
+import python-mpd2 
     
 pyglow = PyGlow()
 
@@ -49,10 +50,10 @@ while True:
  if ping < 0: ping = ping + 1000
  
  if r[5] < 1: pyglow.all (1), sleep (1), pyglow.all (0)
- if r[5] >= 1: pyglow.color ("blue",75),pyglow.color ("white",75),pyglow.color ("green",0), pyglow.color ("yellow",0), pyglow.color ("orange",0), pyglow.color ("red",0)
- if r[5] >= 2: pyglow.color ("blue",75),pyglow.color ("white",75),pyglow.color ("green",75), pyglow.color ("yellow",0), pyglow.color ("orange",0), pyglow.color ("red",0)
- if r[5] >= 3: pyglow.color ("blue",75),pyglow.color ("white",75),pyglow.color ("green",75), pyglow.color ("yellow",75), pyglow.color ("orange",0), pyglow.color ("red",0)
- if r[5] >= 4: pyglow.color ("blue",75),pyglow.color ("white",75),pyglow.color ("green",75), pyglow.color ("yellow",75), pyglow.color ("orange",75), pyglow.color ("red",0)
+ if r[5] >= 1: pyglow.color ("blue",75),pyglow.color ("white",75)
+ if r[5] >= 2: pyglow.color ("blue",75),pyglow.color ("white",75),pyglow.color ("green",75)
+ if r[5] >= 3: pyglow.color ("blue",75),pyglow.color ("white",75),pyglow.color ("green",75), pyglow.color ("yellow",75)
+ if r[5] >= 4: pyglow.color ("blue",75),pyglow.color ("white",75),pyglow.color ("green",75), pyglow.color ("yellow",75), pyglow.color ("orange",75)
  if r[5] >= 5: pyglow.color ("blue",75),pyglow.color ("white",75),pyglow.color ("green",75), pyglow.color ("yellow",75), pyglow.color ("orange",75), pyglow.color ("red",75)
 
 
