@@ -30,7 +30,8 @@ while True:
   data, addr = s.recvfrom(1024)
  except socket.timeout:
  #print "%d:NaN:NaN" % (time.time())
-  sys.exit()
+  sleep (5)
+  continue
   
  s.close()
   
