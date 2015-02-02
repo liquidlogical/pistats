@@ -1,6 +1,5 @@
 #!/usr/bin/env python
-# -*- coding: utf-8 Based on pcgod's mumble-ping script found at 
-# http://0xy.org/mumble-ping.py. Hacked by Liquid <Host> <Port>
+# Add <Host> <Port> after Python command
 from struct import *
 import socket, sys, time, datetime
 import mpd
