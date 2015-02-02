@@ -44,7 +44,7 @@ while True:
  else:
    z = 2
  
- if z <= 1: pyglow.arm (1, 75), sleep (0.5), pyglow.arm (1,0), pyglow.arm (2, 75), sleep (0.5), pyglow.arm (2,0), pyglow.arm (3, 75), sleep (0.5), pyglow.arm (3,0), pyglow.arm (1, 75), sleep (0.5), pyglow.arm (1,0), pyglow.arm (2, 75), sleep (0.5), pyglow.arm (2,0), pyglow.arm (3, 75), sleep (0.5), pyglow.arm (3,0), sleep (0.5), pyglow.all (0)
+ if z <= 1: pyglow.arm (3, 75), sleep (0.5), pyglow.arm (3,0), pyglow.arm (2, 75), sleep (0.5), pyglow.arm (2,0), pyglow.arm (1, 75), sleep (0.5), pyglow.arm (1,0), pyglow.arm (3, 75), sleep (0.5), pyglow.arm (3,0), pyglow.arm (2, 75), sleep (0.5), pyglow.arm (2,0), pyglow.arm (1, 75), sleep (0.5), pyglow.arm (1,0), sleep (0.5), pyglow.all (0)
  
  else:
   if r[5] < 1: pyglow.all (1), sleep (1), pyglow.all (0)
