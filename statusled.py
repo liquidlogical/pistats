@@ -3,7 +3,7 @@
 from struct import *
 import socket, sys, time, datetime
 import mpd
-from pyglow import PyGlow
+from PyGlow import PyGlow
 from time import sleep
 import os
     
